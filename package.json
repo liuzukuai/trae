@@ -1,0 +1,39 @@
+{
+  "name": "taobao-data-advisor",
+  "private": true,
+  "version": "1.1.0",
+  "type": "module",
+  "description": "Web端淘宝运营数据分析 + AI智能诊断工具",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.28.0",
+    "antd": "^5.22.5",
+    "echarts": "^5.5.1",
+    "echarts-for-react": "^3.0.2",
+    "zustand": "^5.0.2",
+    "sql.js": "^1.12.0",
+    "xlsx": "^0.18.5",
+    "papaparse": "^5.4.1",
+    "dayjs": "^1.11.13"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@types/papaparse": "^5.3.15",
+    "@typescript-eslint/eslint-plugin": "^8.15.0",
+    "@typescript-eslint/parser": "^8.15.0",
+    "@vitejs/plugin-react": "^4.3.4",
+    "eslint": "^9.15.0",
+    "eslint-plugin-react-hooks": "^5.0.0",
+    "eslint-plugin-react-refresh": "^0.4.14",
+    "typescript": "~5.6.2",
+    "vite": "^5.4.11"
+  }
+}
